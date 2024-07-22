@@ -26,7 +26,7 @@ for row in range(height):
         newBlue = 255 - blue
 
         # 设置像素为新颜色
-        image.setPixel(row,col,newRed,newGreen,newBlue)
+        image.setPixel(row, col, newRed, newGreen, newBlue)
 
 # 在屏幕上显示图像
 win = GraphicsWindow()
