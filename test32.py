@@ -5,7 +5,7 @@
 
 from ezgraphics import GraphicsImage, GraphicsWindow
 
-filename = input ("Enter the name of the image file: ")
+filename = input("Enter the name of the image file: ")
 
 # 从文件中载入图像
 image = GraphicsImage(filename)
